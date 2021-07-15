@@ -24,6 +24,7 @@ async def type_(message: Message):
         if message.process_is_canceled:
             await message.edit("`process cancelled`")
             break
+        print("ololol")
         old_text += character
         typing_text = old_text + typing_symbol
         await message.try_to_edit(typing_text, sudo=False)
