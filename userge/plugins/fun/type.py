@@ -15,7 +15,7 @@ from userge import userge, Message
 async def type_(message: Message):
     text = message.input_str
     if not text:
-        await message.err("input not found")
+        await message.err("for me - texta sethi anupuda")
         return
     typing_symbol = '|'
     old_text = ''
